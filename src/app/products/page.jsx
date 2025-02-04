@@ -10,7 +10,6 @@ const getProducts = async () => {
 
 const Page = async () => {
   const products = await getProducts();
-  console.log(products.products);
 
   return (
     <div>

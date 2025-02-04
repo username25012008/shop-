@@ -10,7 +10,6 @@ const getProduct = async (id) => {
 const page = async ({params}) => {
   let id = params?.id;
   const product = await getProduct(id);
-  console.log(product);
 
   return (
     <div className="bg-gray-100 light:bg-gray-800 py-8">
